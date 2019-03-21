@@ -1,0 +1,18 @@
+{
+  "name": "@ls-age/renovate-config",
+  "version": "0.0.0",
+  "description": "Renovate sharable config",
+  "author": "Lukas Hechenberger <admin@ls-age.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "package.json",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ],
+      "semanticCommits": false,
+      "commitMessagePrefix": "chore(package):"
+    }
+  }
+}
