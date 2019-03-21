@@ -58,7 +58,7 @@ jobs:
       - run:
           name: Deploying changes
           command:
-            npx @ls-age/bump-version release --gh-token $RELEASE_GITHUB_TOKEN
+            npx @ls-age/bump-version release --gh-token $RELEASE_GITHUB_TOKEN --skip-release-files
 
 workflows:
   version: 2
