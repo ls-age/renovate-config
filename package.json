@@ -2,17 +2,32 @@
   "name": "@ls-age/renovate-config",
   "version": "0.0.0",
   "description": "Renovate sharable config",
-  "author": "Lukas Hechenberger <admin@ls-age.com>",
-  "homepage": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasHechenberger/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LukasHechenberger/renovate-config/issues"
+  },
+  "homepage": "https://github.com/LukasHechenberger/renovate-config#readme",
+  "author": "Lukas Hechenberger <admin@ls-age.com>",
   "main": "package.json",
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "renovate": "^14.55.2"
+  },
   "renovate-config": {
     "default": {
+      "commitMessagePrefix": "chore(package):",
       "extends": [
         "config:base"
       ],
-      "semanticCommits": false,
-      "commitMessagePrefix": "chore(package):"
+      "semanticCommits": false
     }
   }
 }
