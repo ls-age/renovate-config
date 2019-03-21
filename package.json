@@ -5,12 +5,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LukasHechenberger/renovate-config.git"
+    "url": "git+https://github.com/ls-age/renovate-config.git"
   },
   "bugs": {
-    "url": "https://github.com/LukasHechenberger/renovate-config/issues"
+    "url": "https://github.com/ls-age/renovate-config/issues"
   },
-  "homepage": "https://github.com/LukasHechenberger/renovate-config#readme",
+  "homepage": "https://github.com/ls-age/renovate-config#readme",
   "author": "Lukas Hechenberger <admin@ls-age.com>",
   "main": "package.json",
   "scripts": {
