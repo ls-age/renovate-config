@@ -28,9 +28,24 @@
       ],
       "semanticCommits": false,
       "commitMessagePrefix": "chore(package):"
+    },
+    "automergeDev": {
+      "extends": [
+        ":default"
+      ],
+      "packageRules": [
+        {
+          "automerge": true,
+          "depTypeList": [
+            "devDependencies"
+          ]
+        }
+      ]
     }
   },
   "renovate": {
-    "extends": ["@ls-age"]
+    "extends": [
+      "@ls-age:automergeDev"
+    ]
   }
 }
