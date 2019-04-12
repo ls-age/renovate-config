@@ -33,12 +33,19 @@
       "extends": [
         ":default"
       ],
-      "devDependencies": {
-        "automerge": true
-      }
+      "packageRules": [
+        {
+          "automerge": true,
+          "depTypeList": [
+            "devDependencies"
+          ]
+        }
+      ]
     }
   },
   "renovate": {
-    "extends": ["@ls-age"]
+    "extends": [
+      "@ls-age:automergeDev"
+    ]
   }
 }
