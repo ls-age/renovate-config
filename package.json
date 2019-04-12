@@ -45,7 +45,7 @@
   },
   "renovate": {
     "extends": [
-      "@ls-age:automergeDev"
+      ":automergeDev"
     ]
   }
 }
