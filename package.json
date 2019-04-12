@@ -28,6 +28,14 @@
       ],
       "semanticCommits": false,
       "commitMessagePrefix": "chore(package):"
+    },
+    "automergeDev": {
+      "extends": [
+        ":default"
+      ],
+      "devDependencies": {
+        "automerge": true
+      }
     }
   },
   "renovate": {
