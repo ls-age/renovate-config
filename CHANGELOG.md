@@ -1,3 +1,14 @@
+<a name="0.2.1"></a>
+## 0.2.1 (2019-04-14)
+
+
+### Bug Fixes
+
+* Reconfigure automergeDev config ([#7](https://github.com/ls-age/renovate-config/issues/7)) ([8b41a37](https://github.com/ls-age/renovate-config/commits/8b41a37))
+
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2019-04-12)
 
