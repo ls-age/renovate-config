@@ -31,7 +31,7 @@
     },
     "automergeDev": {
       "extends": [
-        ":default"
+        "@ls-age"
       ],
       "packageRules": [
         {
