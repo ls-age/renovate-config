@@ -1,3 +1,14 @@
+<a name="0.3.0"></a>
+# 0.3.0 (2019-06-15)
+
+
+### Features
+
+* Silently merge with automergeDev ([#142](https://github.com/ls-age/renovate-config/issues/142)) ([3f5b49d](https://github.com/ls-age/renovate-config/commits/3f5b49d))
+
+
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2019-04-14)
 
