@@ -36,6 +36,7 @@
       "packageRules": [
         {
           "automerge": true,
+          "automergeType": "branch",
           "depTypeList": [
             "devDependencies"
           ]
