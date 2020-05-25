@@ -19,7 +19,7 @@
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
-    "renovate": "20.2.5"
+    "renovate": "20.3.1"
   },
   "renovate-config": {
     "default": {
