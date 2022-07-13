@@ -17,16 +17,15 @@
     "test": "renovate-config-validator"
   },
   "keywords": [],
-  "dependencies": {},
   "devDependencies": {
-    "renovate": "23.21.1"
+    "renovate": "32.111.2"
   },
   "renovate-config": {
     "default": {
       "extends": [
         "config:base"
       ],
-      "semanticCommits": false,
+      "semanticCommits": "disabled",
       "commitMessagePrefix": "chore(package):"
     },
     "automergeDev": {
@@ -37,7 +36,7 @@
         {
           "automerge": true,
           "automergeType": "branch",
-          "depTypeList": [
+          "matchDepTypes": [
             "devDependencies"
           ]
         }

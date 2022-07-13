@@ -1,6 +1,6 @@
 defaults: &defaults
   docker:
-    - image: circleci/node:10
+    - image: circleci/node:16
 
 git-login: &git-login
   name: Setting up git user
@@ -57,8 +57,7 @@ jobs:
           <<: *npm-login
       - run:
           name: Deploying changes
-          command:
-            npx @ls-age/bump-version release --gh-token $RELEASE_GITHUB_TOKEN --skip-release-files
+          command: npx @ls-age/bump-version release --gh-token $RELEASE_GITHUB_TOKEN --skip-release-files
 
 workflows:
   version: 2
