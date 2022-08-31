@@ -18,7 +18,7 @@
   },
   "keywords": [],
   "devDependencies": {
-    "renovate": "32.185.1"
+    "renovate": "32.186.0"
   },
   "renovate-config": {
     "default": {
